@@ -1,7 +1,8 @@
 # Planteo mis variables
 from datetime import date
 
-fechaNacimiento = date(2015, 6, 20)
+fechaNacimiento = input("Ingrese su fecha de nacimiento (YYYY-MM-DD): ")
+fechaNacimiento = date.fromisoformat(fechaNacimiento)
 
 hoy = date.today()
 
